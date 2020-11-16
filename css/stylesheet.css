@@ -418,6 +418,12 @@ body.noscroll {
   font-weight: 700;
 }
 
+@media screen and (max-width: 559px) {
+  .message span {
+    font-size: 45px;
+  }
+}
+
 .message .border {
   background: #333;
   -webkit-box-flex: 0;
@@ -455,6 +461,13 @@ body.noscroll {
   z-index: 0;
   opacity: 0.1;
   font-weight: 700;
+}
+
+@media screen and (max-width: 559px) {
+  .about span {
+    font-size: 45px;
+    left: 4px;
+  }
 }
 
 .about .border {
@@ -530,6 +543,13 @@ body.noscroll {
   font-weight: 700;
 }
 
+@media screen and (max-width: 559px) {
+  .skills span {
+    left: 4px;
+    font-size: 45px;
+  }
+}
+
 .skills .border {
   background: #333;
   -webkit-box-flex: 0;
@@ -542,15 +562,27 @@ body.noscroll {
   margin: 40px 0;
 }
 
-.skills .skills-wrapper {
-  background-color: #f2f2f2;
-}
-
 .skills .skills-card {
   display: block;
   margin: 0 auto;
   padding: 10px;
   width: calc(33.333% - 60px / 4);
+}
+
+.skills .skills-card .wordpress {
+  width: 100px;
+  margin: 0 auto;
+  padding: 10px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.skills .skills-card .html {
+  width: 100px;
+  margin: 0 auto;
+  padding: 10px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 @media screen and (max-width: 559px) {
@@ -564,21 +596,14 @@ body.noscroll {
   line-height: 26px;
 }
 
-.skills .skill-icon {
-  font-size: 7rem;
-  line-height: 99px;
-  width: 100px;
-}
-
-@media screen and (max-width: 559px) {
-  .skills .skill-icon {
-    padding-left: 10px;
-  }
-}
-
 .skills-img {
   width: 100px;
   margin: 0 auto;
+}
+
+.skills-img img {
+  height: 100px;
+  width: 100px;
 }
 
 @media screen and (max-width: 559px) {
@@ -598,6 +623,22 @@ body.noscroll {
   position: relative;
 }
 
+.works .wrapper {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: wrap;
+          flex-direction: wrap;
+}
+
+@media screen and (max-width: 559px) {
+  .works .wrapper {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
 .works .ttl {
   display: block;
   font-weight: bold;
@@ -613,6 +654,13 @@ body.noscroll {
   z-index: 0;
   opacity: 0.1;
   font-weight: 700;
+}
+
+@media screen and (max-width: 559px) {
+  .works span {
+    left: 4px;
+    font-size: 45px;
+  }
 }
 
 .works .border {
@@ -633,7 +681,6 @@ body.noscroll {
 
 .works .works-card {
   padding: 16px;
-  width: calc(33.333% - 60px / 3);
 }
 
 @media screen and (max-width: 559px) {
@@ -651,6 +698,13 @@ body.noscroll {
   display: inline-block;
   margin: 16px auto 0;
   font-size: 14px;
+}
+
+.works .flex-box {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: wrap;
+          flex-direction: wrap;
 }
 
 @media screen and (max-width: 559px) {
@@ -688,6 +742,13 @@ body.noscroll {
   z-index: 1;
 }
 
+@media screen and (max-width: 559px) {
+  .contact .span1 {
+    font-size: 45px;
+    left: 4px;
+  }
+}
+
 .contact .border {
   background: #333;
   -webkit-box-flex: 0;
@@ -723,6 +784,13 @@ body.noscroll {
   color: #FFFFFF;
   margin-left: 22px;
   padding: 8px 16px;
+}
+
+@media screen and (max-width: 559px) {
+  .contact__form span {
+    font-size: 10px;
+    left: 4px;
+  }
 }
 
 .contact__form input {

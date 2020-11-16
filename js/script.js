@@ -19,6 +19,7 @@ $(".hamburger__list").click(function () {
   $(".hamburger,.hamburger-btn").removeClass("active");
 });
 
+$("h2").textillate();
 
   AOS.init({
     offset: 120,
@@ -29,6 +30,6 @@ $(".hamburger__list").click(function () {
     mirror: false,
     anchorPlacement: 'top-bottom',
   });
-  
+
 });
 

@@ -852,7 +852,6 @@ body.noscroll {
 }
 
 .works .ttl {
-  text-align: center;
   display: block;
   font-weight: bold;
   font-size: 20px;
@@ -863,8 +862,6 @@ body.noscroll {
   font-size: 70px;
   position: absolute;
   left: 0;
-  right: 0;
-  text-align: center;
   top: -25px;
   z-index: 0;
   opacity: 0.1;
@@ -873,6 +870,7 @@ body.noscroll {
 
 @media screen and (max-width: 559px) {
   .works span {
+    left: 4px;
     font-size: 45px;
   }
 }
@@ -886,7 +884,7 @@ body.noscroll {
   margin: 0px 0px 40px 0px;
   width: 15%;
   max-width: 15%;
-  margin: 40px auto;
+  margin: 40px 0;
 }
 
 .works .works-wrapper {
@@ -924,6 +922,7 @@ body.noscroll {
 }
 
 .contact .ttl {
+  text-align: center;
   display: block;
   font-weight: bold;
   font-size: 20px;
@@ -934,17 +933,17 @@ body.noscroll {
   font-size: 70px;
   position: absolute;
   left: 0;
+  right: 0;
+  text-align: center;
   top: -25px;
   z-index: 0;
   opacity: 0.1;
   font-weight: 700;
-  z-index: 1;
 }
 
 @media screen and (max-width: 559px) {
   .contact .span1 {
     font-size: 45px;
-    left: 4px;
   }
 }
 
@@ -957,7 +956,7 @@ body.noscroll {
   margin: 0px 0px 40px 0px;
   width: 15%;
   max-width: 15%;
-  margin: 40px 0;
+  margin: 40px auto;
 }
 
 .contact__forms {

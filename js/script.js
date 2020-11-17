@@ -15,8 +15,11 @@ $(".hamburger-btn").click(function () {
     $('body').toggleClass('noscroll'); //ハンバーガーメニューを開いたときにスクロールしないようにする
   }
 });
-$(".hamburger__list").click(function () {
-  $(".hamburger,.hamburger-btn").removeClass("active");
+
+$(".hamburger-nav__lists-list").click(function () {
+  $(".hamburger-nav,.hamburger-btn").removeClass("active");
+  $('.burger-musk').fadeToggle(300); //背景を暗くするマスクをフェードイン・フェードアウトさせる
+  $('body').toggleClass('noscroll');
 });
 
 $("h2").textillate();

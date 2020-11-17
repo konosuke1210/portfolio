@@ -119,7 +119,7 @@ button {
   }
 }
 
-@media screen and (max-width: 559px) {
+@media screen and (max-width: 959px) {
   .header-nav {
     display: none;
   }
@@ -256,7 +256,7 @@ button {
   display: none;
 }
 
-@media screen and (max-width: 559px) {
+@media screen and (max-width: 959px) {
   .hamburger-btn {
     display: block;
     position: relative;
@@ -550,10 +550,6 @@ body.noscroll {
   padding-top: 20px;
 }
 
-.service {
-  padding-top: 100px;
-}
-
 .service .content-wrapper {
   position: relative;
 }
@@ -642,10 +638,6 @@ body.noscroll {
 
 .service-wrapper ul li:nth-of-type(n+2) {
   margin-top: 24px;
-}
-
-.skills {
-  padding-top: 100px;
 }
 
 .skills .content-wrapper {
@@ -739,10 +731,6 @@ body.noscroll {
         -ms-flex-direction: column;
             flex-direction: column;
   }
-}
-
-.process {
-  padding-top: 100px;
 }
 
 .process .content-wrapper {
@@ -876,10 +864,6 @@ body.noscroll {
   text-align: left;
 }
 
-.works {
-  padding-top: 100px;
-}
-
 .works .content-wrapper {
   position: relative;
 }
@@ -944,10 +928,6 @@ body.noscroll {
   display: inline-block;
   margin: 16px auto 0;
   font-size: 14px;
-}
-
-.contact {
-  padding-top: 100px;
 }
 
 .contact .content-wrapper {

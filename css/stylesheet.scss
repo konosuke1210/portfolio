@@ -115,7 +115,7 @@ button{
     @include tablet{
       font-size: 14px;
     }
-    @include mobile{
+    @include tablet{
       display: none;
     }
     ul {
@@ -210,7 +210,7 @@ button{
 
 .hamburger-btn {
   display: none;
-  @include mobile{
+  @include tablet{
     display: block;
     position: relative;
     width: 25px;
@@ -451,7 +451,6 @@ body.noscroll{
 }
 
 .service{
-  padding-top:100px;
   .content-wrapper{
     position: relative;
   }
@@ -523,7 +522,6 @@ body.noscroll{
 }
 
 .skills{
-  padding-top:100px;
   .content-wrapper{
     position: relative;
   }
@@ -596,7 +594,6 @@ body.noscroll{
 }
 
 .process{
-  padding-top:100px;
   .content-wrapper{
     position: relative;
   }
@@ -694,7 +691,6 @@ body.noscroll{
 }
 
 .works{
-  padding-top:100px;
   .content-wrapper{
     position: relative;
   }
@@ -750,7 +746,6 @@ body.noscroll{
 
 
 .contact{
-  padding-top:100px;
   .content-wrapper{
     position: relative;
   }

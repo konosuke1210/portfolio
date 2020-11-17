@@ -171,19 +171,35 @@ button{
     position: absolute;
     top:41%;
     right:47%;
+    color:#ffffff;
     @include mobile{
-      position: static;
-      margin-top: 45px;
+      top: 24%;
+      right:auto;
+      padding: 16px 2px 20px 38px;
     }
     h1{
       font-size: 64px;
       display: inline-block;
       margin-bottom: 10px;
+      color: #333;;
+      @include mobile{
+        font-size: 48px;
+        color: #ffffff;
+      }
       strong{
         color: #ffffff;
         @include tablet{
           color: #333;
         }
+        @include mobile{
+          color:#ffffff;
+        }
+      }
+    }
+    h2{
+      color:#333;
+      @include mobile{
+        color:#ffffff;
       }
     }
     p{
@@ -328,6 +344,9 @@ body.noscroll{
 
 .message{
   padding: 150px 0 60px;
+  @include mobile{
+    padding:100px 0 60px;
+  }
   .content-wrapper{
     max-width: 750px;
     margin: 0 auto;

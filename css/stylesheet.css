@@ -197,12 +197,14 @@ button {
   position: absolute;
   top: 41%;
   right: 47%;
+  color: #ffffff;
 }
 
 @media screen and (max-width: 559px) {
   .mv .content-copy {
-    position: static;
-    margin-top: 45px;
+    top: 24%;
+    right: auto;
+    padding: 16px 2px 20px 38px;
   }
 }
 
@@ -210,6 +212,14 @@ button {
   font-size: 64px;
   display: inline-block;
   margin-bottom: 10px;
+  color: #333;
+}
+
+@media screen and (max-width: 559px) {
+  .mv .content-copy h1 {
+    font-size: 48px;
+    color: #ffffff;
+  }
 }
 
 .mv .content-copy h1 strong {
@@ -219,6 +229,22 @@ button {
 @media screen and (max-width: 959px) {
   .mv .content-copy h1 strong {
     color: #333;
+  }
+}
+
+@media screen and (max-width: 559px) {
+  .mv .content-copy h1 strong {
+    color: #ffffff;
+  }
+}
+
+.mv .content-copy h2 {
+  color: #333;
+}
+
+@media screen and (max-width: 559px) {
+  .mv .content-copy h2 {
+    color: #ffffff;
   }
 }
 
@@ -390,6 +416,12 @@ body.noscroll {
 
 .message {
   padding: 150px 0 60px;
+}
+
+@media screen and (max-width: 559px) {
+  .message {
+    padding: 100px 0 60px;
+  }
 }
 
 .message .content-wrapper {
